@@ -2,14 +2,13 @@
 UCB ML &amp; AI Module 5
 
 Files:
-
+coupons.csv
 
 Data:
 This data is from the UCI Machine Learning Repository and was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios, including the destination, current time, weather, and passenger, and then asks people whether they will accept the coupon if they are the driver. There are three possible answers people can choose from:
-
-“Right away”
-“Later, before the coupon expires”
-“No, I do not want the coupon”
+- “Right away”
+- “Later, before the coupon expires”
+- “No, I do not want the coupon”
 The first two responses are labeled as “Y = 1,” and the third is labeled as “Y = 0.” There are five different types of coupons: Less expensive restaurants (under $20), coffee houses, carryout and takeaway, bars, and more expensive restaurants ($20–$50).
 
 Analysis:
@@ -32,7 +31,7 @@ Answer 1: We can see that at the most popular time of 10AM people have no urgent
 Problem 2: We see a big dropoff at income level 75k - 87.5k.  Let's see if Coffee House frequency is related to this drop-off.
 Answer 2: If the hypothesis was correct, we should see a spike in 'never' and 'less1' columns for 75k - 87.5k. We can see that this was NOT the case so there is no correlation.
 
-Conclusion:
+Conclusions:
 
 Dataset
 The dataset does not offer a lot of statistical analysis because most of the columns are in "bins" (i.e. non-numeric). So, our plots are mostly bar plots.
